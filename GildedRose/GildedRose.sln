@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose", "GildedRose\GildedRose.csproj", "{C28AEA31-A2AD-4D76-A6F0-2ADA4E158EA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRoseTests", "GildedRoseTests\GildedRoseTests.csproj", "{D73B52F5-A9F7-4C8F-93FA-7E03D6CB974D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C28AEA31-A2AD-4D76-A6F0-2ADA4E158EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28AEA31-A2AD-4D76-A6F0-2ADA4E158EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28AEA31-A2AD-4D76-A6F0-2ADA4E158EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28AEA31-A2AD-4D76-A6F0-2ADA4E158EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73B52F5-A9F7-4C8F-93FA-7E03D6CB974D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73B52F5-A9F7-4C8F-93FA-7E03D6CB974D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73B52F5-A9F7-4C8F-93FA-7E03D6CB974D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73B52F5-A9F7-4C8F-93FA-7E03D6CB974D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EA6FF3A-35D1-445B-B180-D0911A6C75FE}
+	EndGlobalSection
+EndGlobal
