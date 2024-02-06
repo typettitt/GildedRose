@@ -16,7 +16,7 @@ public class ApprovalTest
 
         Directory.SetCurrentDirectory(repoRootDirectory);
 
-        var outputPath = Path.Combine(repoRootDirectory, "ThirtyDays");
+        var outputPath = Path.Combine(repoRootDirectory, "Outputs/ThirtyDays");
         var expectedOutputPath = Path.Combine(outputPath, "expected.txt");
         var errorOutputPath = Path.Combine(outputPath, "actual.txt");
 

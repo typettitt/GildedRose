@@ -17,4 +17,4 @@ You should make sure the command shown above works when you execute it in a term
 
 ## Running the ApprovalTest
 
-The approval test will run the TextTestFixture with an argument of 30 for 30 days. If the the expected results do not match, a file named actual.txt will be created in a folder named `ThirtyDays` in the repository root directory. You can manually compare `actual.txt` and `expected.txt` with a diff tool.
+The approval test will run the TextTestFixture with an argument of 30 for 30 days. If the the expected results do not match, a file named actual.txt will be created in `Outputs/ThirtyDays` in the repository root directory. You can manually compare `actual.txt` and `expected.txt` with a diff tool.
