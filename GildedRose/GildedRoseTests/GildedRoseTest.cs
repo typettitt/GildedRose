@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Xunit;
 
-namespace GildedRoseTests.NET8;
+namespace GildedRoseTests;
 
 public class GildedRoseTest
 {
