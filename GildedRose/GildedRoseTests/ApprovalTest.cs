@@ -37,9 +37,9 @@ public class ApprovalTest
         using (var reader = new StreamReader(expectedOutputPath))
         {
             var expectedOutput = reader.ReadToEnd();
+            File.WriteAllText(errorOutputPath, output);
             if (expectedOutput != output)
             {
-                File.WriteAllText(errorOutputPath, output);
                 Assert.True(false, $"Output does not match. Actual output saved to '{errorOutputPath}'.");
             }
         }
